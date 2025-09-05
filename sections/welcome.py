@@ -1,4 +1,9 @@
 from nicegui import ui
 
 def render():
-    ui.label("This is my welcome page")
+    with ui.element("div"):
+        with ui.element("div"):
+            ui.label("Melinda Studio")
+            ui.label("WELCOME")
+            ui.label("Let's create man in our own image...we are beautiful")
+            ui.link("Our Story", "/")

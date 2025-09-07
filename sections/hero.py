@@ -28,7 +28,7 @@ def render():
 
         with ui.element("div").classes("text-white font-bold text-center").style("font-family: 'Josefin Sans', sans-serif; font-optical-sizing: auto; font-style: normal;"):
             ui.label("Welcome to").classes("text-5xl mb-4")
-            ui.label("Family's Studio").classes("text-8xl text-orange-500 mb-8")
+            ui.label("Melinda's Studio").classes("text-8xl text-orange-500 mb-8")
             ui.button("Look Menu").props("color=black-4").classes("shadow-2xl shadow-green-500 hover:shadow-orange-700")
 
                 

@@ -21,5 +21,5 @@ def render():
                 "font-family: 'Josefin Sans', sans-serif; font-optical-sizing: auto; font-style: normal;"
             )
 
-        with ui.element("div").classes("w-1/2 px-10 py-10"):
-            ui.image("/assets/welcome.jpg").classes()
+        with ui.element("div").classes("w-1/3 py-10 overflow-hidden"):
+            ui.image("/assets/welcome.jpg").classes("transition duration-300 ease-in-out transform hover:scale-110")

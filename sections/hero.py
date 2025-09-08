@@ -10,8 +10,8 @@ def render():
             ui.label("m-S").classes("text-orange-400 font-bold text-lg hover:text-red-700 cursor-pointer bg-green-900 rounded-[100%] p-2")
 
             navlinks = [{"title": "Home", "path": "/"}, 
-                        {"title": "Menu", "path": "/"}, 
-                        {"title": "Reservation", "path": "/"},
+                        {"title": "Services", "path": "/"}, 
+                        {"title": "Bookings", "path": "/"},
                         {"title": "Gallery", "path": "/"},
                         {"title": "About", "path": "/"},
                         {"title": "Blog", "path": "/"}
@@ -26,7 +26,7 @@ def render():
                 ui.html('<i class="fa-brands fa-instagram"></i>').classes("hover:text-orange-800 cursor-pointer")
                 ui.html('<i class="fa-brands fa-twitter"></i>').classes("text-sky-400 hover:text-sky-800 cursor-pointer")
 
-        with ui.element("div").classes("text-white font-bold text-center").style("font-family: 'Josefin Sans', sans-serif; font-optical-sizing: auto; font-style: normal;"):
+        with ui.element("div").classes("text-white font-bold text-center bg-black/60 h-full w-full flex flex-col items-center justify-center").style("font-family: 'Josefin Sans', sans-serif; font-optical-sizing: auto; font-style: normal;"):
             ui.label("Welcome to").classes("text-5xl mb-4")
             ui.label("Melinda's Studio").classes("text-8xl text-orange-500 mb-8")
             ui.button("Look Menu").props("color=black-4").classes("shadow-2xl shadow-green-500 hover:shadow-orange-700")
